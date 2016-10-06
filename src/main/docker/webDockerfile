@@ -6,4 +6,4 @@ VOLUME /tmp
 ADD http://192.168.159.137:8081/artifactory/libs-release-local/org/springframework/samples/service/service/microservice-demo/1.1.0.RELEASE/microservice-demo-1.1.0.RELEASE.jar app.jar
 
 
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar", "web"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar", "web"] 
